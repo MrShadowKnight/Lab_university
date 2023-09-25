@@ -9,9 +9,9 @@ int main()
     cout << "a = ";
     cin >> a;
 
-    double z1 = (1 - 2 * sin(a) * sin(a)) / (1 + sin(2 * a));
+    double z1 = (sin(a) + sin(5 * a) - sin(3 * a)) / (cos(a) - cos(3 * a) + cos(5 * a));
 
-    double z2 = (1 - tan(a)) / (1 + tan(a));
+    double z2 = tan(3 * a);
 
     cout << "z1 = " << z1 << endl;
     cout << "z2 = " << z2 << endl;
