@@ -33,7 +33,7 @@ int main()
     }
     if (!(c < 0 && x != 0) && !((c > 0 && x == 0)))
     {
-        F = (b * x) + (c - a);
+        F = (b * x) / (c - a);
     }
     cout << "1) F = " << F << endl;
 
@@ -50,7 +50,7 @@ int main()
         }
         else
         {
-            F = (b * x) + (c - a);
+            F = (b * x) / (c - a);
         }
     }
     cout << "2) F = " << F << endl;
